@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <script src="Js/index.js" async></script>
+</head>
+
+<body>
+    <div id="backdrop"></div>
+
+
+    <div class="navbar">
+        <h1>Your Dashboard</h1>
+        <button>ADD ITEM</button>
+    </div>
+    <div class="main">
+        <div class="sidebar">
+            <h3>Summary</h3>
+        </div>
+        <div id="main-content">
+           <p>ghana</p>
+        </div>
+         <main>
+        <ul id="item-list">kjhg
+        </ul>
+    </main>
+    </div>
+   
+
+    <div class="inventory" id="add-btn">
+        <div class="content">
+            <label for="name">Name of Item</label>
+            <input type="text" name="name" id="name" />
+            <label for="item-image">Image of Item</label>
+            <input type="file" name="item-image" id="item-image" />
+            <label for="description">Description</label>
+            <input type="text" name="description" id="description" />
+            <label id="category"> Choose Category:
+                <select name="item_category">
+                    <option value="">Women's footwear</option>
+                    <option value="">Women's blaisers</option>
+                    <option value="">Men's pants</option>
+                    <option value="">Women's pants</option>
+                    <option value="">Women's tops</option>
+                    <option value="">Men's shirts</option>
+                    <option value="">Men's footwear</option>
+                    <option value="">laptop bags</option>
+                    <option value="">ladies bags</option>
+                    <option value="">Travelling bags</option>
+                </select>
+            </label>
+            <label for="quantity">Quantity Available</label>
+            <input type="number" min="1" name="quantity" id="quantity" />
+        </div>
+        <div class="inventory_functions">
+            <button class="btn btn--passive">Cancel</button>
+            <button class="btn btn--success">Add</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
